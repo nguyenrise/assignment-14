@@ -2,21 +2,19 @@ import React from "react";
 
 interface ResourceItemProps {
   title: string;
-  image: string;
   summary: string;
   link: string;
 }
 
 const ResourceItem: React.FC<ResourceItemProps> = ({
   title,
-  image,
+
   summary,
   link,
 }) => {
   return (
     <div>
       <h3>{title}</h3>
-      <img src={image} alt={title} width="100" />
       <p>{summary}</p>
       <a href={link} target="_blank" rel="noopener noreferrer">
         Learn More
@@ -29,7 +27,6 @@ const Resources: React.FC = () => {
   const resourceItems: ResourceItemProps[] = [
     {
       title: "React Docs",
-      image: "https://via.placeholder.com/100",
       summary: "Official documentation for React.",
       link: "https://reactjs.org/",
     },

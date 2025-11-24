@@ -6,15 +6,21 @@ const DeveloperSetup: React.FC = () => {
       <h2>Developer Setup</h2>
       <div>
         <h3>VSCode Setup</h3>
-        <p>Details about VSCode setup...</p>
+        <p>
+          I have a lot of extensions that are related to the main languages I
+          use, alongside linters and formatters for those languages.
+        </p>
       </div>
       <div>
         <h3>Terminal Setup</h3>
-        <p>Details about terminal setup...</p>
+        <p>
+          I don't really have much customization for my terminal, its pretty
+          much default.
+        </p>
       </div>
       <div>
         <h3>Preferred Editor Font</h3>
-        <p>Fira Code</p>
+        <p>VS CODE DEFAULT</p>
       </div>
     </section>
   );

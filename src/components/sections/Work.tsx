@@ -1,4 +1,5 @@
 import React from "react";
+import projectImage from "../../assets/Screenshot 2025-11-23 234131.png";
 
 interface WorkItemProps {
   title: string;
@@ -34,13 +35,13 @@ const WorkItem: React.FC<WorkItemProps> = ({
 
 const Work: React.FC = () => {
   const workItems: WorkItemProps[] = [
-    // Add your work items here
     {
-      title: "Project 1",
-      description: "A cool project.",
-      image: "https://via.placeholder.com/200",
-      link: "#",
-      tech: ["React", "TypeScript"],
+      title: "Appointly",
+      description:
+        "Appointly is a modern appointment scheduling system for hair salons. It allows users to easily manage their appointments, clients, treatments, and employees in one intuitive dashboard.",
+      image: projectImage,
+      link: "https://github.com/risenguyen/appointly",
+      tech: ["React", "TypeScript", ".NET", "PostgreSQL"],
     },
   ];
 
